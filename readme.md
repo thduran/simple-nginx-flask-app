@@ -10,7 +10,7 @@ Este projeto demonstra uma aplicação simples com dois containers:
 
 ## 📁 Estrutura
 ```
-meu-app/
+simple-nginx-flask-app/
 ├── backend/
 │   ├── app.py
 │   ├── requirements.txt
@@ -19,7 +19,7 @@ meu-app/
 │   ├── index.html
 │   ├── nginx.conf
 │   └── Dockerfile
-└── docker-compose.yml
+└── compose.yaml
 ```
 
 ---
@@ -28,8 +28,8 @@ meu-app/
 
 1. Clone o repositório:
    ```bash
-   git clone <repo-url>
-   cd meu-app
+   git clone https://github.com/thduran/simple-nginx-flask-app
+   cd simple-nginx-flask-app
    ```
 
 2. Construa e suba os containers:
